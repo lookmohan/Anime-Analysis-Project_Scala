@@ -1,22 +1,77 @@
-## 📖 Description
+## 📌 About the Project
 
-This project reads anime data from a CSV file and performs simple data analysis using Scala.
+This project performs simple data analysis on an anime dataset using Scala.
 
-It is a beginner-friendly project to understand:
+It helps you understand:
 
-* File handling in Scala
-* Case classes
-* Working with collections (List, Map)
-* Basic data analysis
+- File handling in Scala  
+- Case classes  
+- Working with collections (List, Map)  
+- Basic data analysis techniques  
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
-* Scala (2.13)
-* SBT (Scala Build Tool)
-* Visual Studio Code (VS Code)
-* CSV file (dataset)
+- Scala (2.13)  
+- SBT (Scala Build Tool)  
+- Java JDK (8 or above)  
+- VS Code / IntelliJ IDEA  
+- CSV Dataset  
+
+---
+
+## ⚙️ Prerequisites
+
+Before running the project, install the following:
+
+---
+
+### ☕ Java JDK
+
+Scala runs on JVM, so Java is required.
+
+🔗 Download:
+- https://adoptium.net/
+- https://www.oracle.com/java/technologies/javase-downloads.html
+
+✔ Check installation:
+```bash
+java -version
+````
+
+---
+
+### 🟣 Scala (2.13)
+
+🔗 Download:
+[https://www.scala-lang.org/download/](https://www.scala-lang.org/download/)
+
+✔ Check installation:
+
+```bash
+scala -version
+```
+
+---
+
+### ⚙️ SBT (Scala Build Tool)
+
+🔗 Download:
+[https://www.scala-sbt.org/download.html](https://www.scala-sbt.org/download.html)
+
+✔ Check installation:
+
+```bash
+sbt sbtVersion
+```
+
+---
+
+### 💻 IDE (Optional)
+
+* VS Code: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+* IntelliJ IDEA: [https://www.jetbrains.com/idea/](https://www.jetbrains.com/idea/)
 
 ---
 
@@ -28,6 +83,9 @@ anime-analysis/
 ├── data/
 │   └── anime.csv
 │
+├── screenshots/
+│   └── output.png
+│
 ├── src/
 │   └── main/
 │       └── scala/
@@ -35,59 +93,49 @@ anime-analysis/
 │               └── Hello.scala
 │
 ├── build.sbt
+├── README.md
 ```
 
 ---
 
-## 📊 Dataset
+## 🚀 How to Run
 
-The dataset contains anime details such as:
+### 1️⃣ Clone the repository
 
-* id
-* name
-* genre
-* episodes
-* rating
+```bash
+git clone https://github.com/lookmohan/Anime-Analysis-Project_Scala.git
+```
 
 ---
 
-## ⚙️ Features / Operations
+### 2️⃣ Move into project folder
 
-The program performs the following operations:
-
-1. Calculate total number of anime
-2. Calculate average rating
-3. Find highest rated anime
-4. Filter anime with rating greater than 8.5
-5. Calculate genre-wise average rating
-6. Find anime with highest number of episodes
-7. Filter anime with episodes greater than 100
+```bash
+cd Anime-Analysis-Project_Scala
+```
 
 ---
 
-## ▶️ How to Run the Project
+### 3️⃣ Run the project
 
-### Step 1: Clone the repository
-
-```
-git clone <your-repo-link>
-```
-
-### Step 2: Navigate to project folder
-
-```
-cd anime-analysis
-```
-
-### Step 3: Run the project
-
-```
+```bash
 sbt run
 ```
 
+✔ This will automatically:
+
+* Compile the code
+* Run the program
+
 ---
 
-## 📌 Sample Output
+## 📸 Output
+
+![Anime Analysis Output](screenshots/output.png)
+
+---
+
+## 📊 Sample Output
 
 ```
 Total Anime: 15
@@ -105,25 +153,29 @@ Anime with episodes > 100: Naruto, One Piece, Bleach
 
 ---
 
-## 🧠 Learning Outcomes
+## 🧠 What You Will Learn
 
-After completing this project, you will be able to:
-
-* Read data from CSV files in Scala
-* Use case classes for structured data
-* Perform data filtering and aggregation
-* Work with Scala collections effectively
-
----
-
-## 🏷️ Tags
-
-Scala, SBT, Data Analysis, CSV, Beginner Project, File Handling
+* Reading CSV files in Scala
+* Using case classes
+* Data filtering and aggregation
+* Working with Scala collections
+* Basic data analysis workflow
 
 ---
 
-## 👩‍💻 Author
+## 🚀 Future Improvements
 
-Vaishnavi R
+* Add charts / graphs
+* Export data to JSON or Excel
+* Add search functionality
+* Build web dashboard
+* Support multiple datasets
 
 ---
+
+## 👨‍💻 Author
+
+Mohanraj R
+
+---
+
