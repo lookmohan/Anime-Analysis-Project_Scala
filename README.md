@@ -131,7 +131,7 @@ sbt run
 
 ## 📸 Output
 
-![Anime Analysis Output](screenshots/output.png)
+![Anime Analysis Output](https://github.com/lookmohan/Anime-Analysis-Project_Scala/issues/1?reload=1)
 
 ---
 
