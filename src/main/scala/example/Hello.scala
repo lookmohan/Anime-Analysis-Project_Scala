@@ -31,7 +31,7 @@ object Hello extends App {
 
   // Anime with rating > 8.5
   val above85 = animeList.filter(_.rating > 8.5)
-  println("Anime with rating > 8.5: " + above85.map(_.name))
+  println("Anime with rating > 8.5: " + above85.map(_.name)..mkString(", "))
 
   // Genre-wise Average Rating
   val genreAvg = animeList.groupBy(_.genre).map {
